@@ -1,0 +1,9 @@
+services:
+  wtt-api:
+    build:
+      context: .
+    image: wtt-api:1.0.0
+    container_name: wtt-api
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:9300:8081"
