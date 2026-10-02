@@ -1,0 +1,29 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /apps/wttapi
+
+
+api:
+  baseUrl: https://mackcloud.mackenzie.br/apps/wttapi
+  security:
+    token: ${API_SECURITY_TOKEN:mackleaps}
+        
+spring:
+  application:
+    name: wttapi
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://mackleaps.mackenzie.br/keycloak/realms/wtt
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+        oauth2: DEBUG
+        web:
+          client:
+            RestTemplate: DEBUG
