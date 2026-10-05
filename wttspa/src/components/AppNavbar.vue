@@ -49,7 +49,7 @@ const route = useRoute()
           - dica: o RouterLink já está criado, só falta as informações de onde ir ao clicar
         ==========================================================================
           -->
-        <RouterLink to="" class="nav-link" :class="{ active: route.name === ''}"> 
+        <RouterLink to="/part" class="nav-link" :class="{ active: route.name === 'part'}"> 
           Participantes
         </RouterLink>   
       </div>

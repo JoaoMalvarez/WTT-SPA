@@ -15,6 +15,7 @@ import HomeView from '../views/HomeView.vue'
 import WelcomeView from '../views/WelcomeView.vue'
 import IntroCrawlView from '../views/IntroCrawlView.vue'
 import AboutView from '../views/AboutView.vue'
+import Participantes from '../views/Participantes.vue'
 /* 
 ===========================================================================================
 TODO 1.1
@@ -80,6 +81,11 @@ const router = createRouter({
             precisar deles no futuro
     ===========================================================================================
     */
+   {
+      path: '/part',
+      name: 'part',
+      component: Participantes,
+    },
   ],
 })
 
