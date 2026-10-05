@@ -1,7 +1,0 @@
-/Users/mackleaps/wtt/api_wtt/wttapi/src/main/java/br/mackenzie/mackleaps/wttapi/WttapiApplication.java
-/Users/mackleaps/wtt/api_wtt/wttapi/src/main/java/br/mackenzie/mackleaps/wttapi/config/Autenticador.java
-/Users/mackleaps/wtt/api_wtt/wttapi/src/main/java/br/mackenzie/mackleaps/wttapi/config/JwtConfig.java
-/Users/mackleaps/wtt/api_wtt/wttapi/src/main/java/br/mackenzie/mackleaps/wttapi/config/SecurityConfig.java
-/Users/mackleaps/wtt/api_wtt/wttapi/src/main/java/br/mackenzie/mackleaps/wttapi/controller/CharacterController.java
-/Users/mackleaps/wtt/api_wtt/wttapi/src/main/java/br/mackenzie/mackleaps/wttapi/model/CharacterDTO.java
-/Users/mackleaps/wtt/api_wtt/wttapi/src/main/java/br/mackenzie/mackleaps/wttapi/service/CharacterService.java
